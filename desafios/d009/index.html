@@ -4,30 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Vídeos legais para assistir</title>
     <style>
         body {
-          background-color: black;
-          color: white;
-          text-align: center;
-          
-          
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
         }
-        img{
-            width: 300px;
-                    }
+        
+        .thumb {
+            display: inline-block;
+            margin: 20px;
+            box-shadow: 0px 0px 10px white;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .thumb:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 15px white;
+        }
       </style>
 </head>
 <body>
     <h1>Vídeos legais para assistir</h1>
-    <p>
-    
-       <a href="hardware.html"><img src="imagens/thumb-hardware.png" alt="capa curso de hardware"></a>
-       <a href="html.html"><img src="imagens/thumb-html.png" alt="capa curso de html"></a> <br>
-       <a href="javascript.htm"><img src="imagens/thumb-js.png" alt="capa curso de Js"></a>
-       <a href="python.html"><img src="imagens/thumb-python.png" alt="capa curso de Python"></a>
-    
-    </p>
-    
+    <div class="thumb">
+        <a href="hardware.html"><img src="imagens/thumb-hardware.png" alt="capa curso de hardware"></a>
+        <h2>Curso de Hardware</h2>
+    </div>
+    <div class="thumb">
+        <a href="html.html"><img src="imagens/thumb-html.png" alt="capa curso de html"></a>
+        <h2>Curso de HTML</h2>
+    </div><br>
+    <div class="thumb">
+        <a href="javascript.htm"><img src="imagens/thumb-js.png" alt="capa curso de Js"></a>
+        <h2>Curso de JavaScript</h2>
+    </div>
+    <div class="thumb">
+        <a href="python.html"><img src="imagens/thumb-python.png" alt="capa curso de Python"></a>
+        <h2>Curso de Python</h2>
+    </div>
 </body>
 </html>
