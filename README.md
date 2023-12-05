@@ -1,1 +1,1 @@
-Gerenciando repositororis 
+Gerenciando repositorios 
